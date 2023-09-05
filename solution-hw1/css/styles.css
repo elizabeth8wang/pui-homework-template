@@ -1,0 +1,162 @@
+/* Gallery Page CSS */
+
+body{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+navbar {
+  text-align:center;
+  margin:auto;
+  width:fit-content;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+
+navbar a:hover {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#logo {
+  width: 400px;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+#products span{
+  margin: auto;
+  background-color: yellow;
+}
+
+a:link {
+  text-decoration: none;
+  color:black
+}
+
+a:visited {
+  color: black;
+}
+
+#gallery {
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+}
+
+.roll{
+  padding: 10px 10px 1px 10px;
+  margin-bottom: 30px;
+}
+
+.image {
+  height: 400px;
+  width: 400px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.rollName span{
+  text-decoration: underline;
+}
+
+.roll:hover {
+  background-color: yellow;
+  .rollName span {
+    font-weight: bold;
+  }
+}
+
+
+
+
+/* Detail Page CSS */
+#detailImage{
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  width: fit-content;
+  display: block;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.cakeInfo{
+  width: 200px;
+  margin: auto;
+}
+
+#customizeText{
+  padding: 30px 0px 30px 0px;
+}
+
+.dropdown{
+  margin-top: 10px;
+}
+
+#glazing{
+  padding-bottom: 10px;
+}
+
+#packSize{
+  padding-bottom: 30px;
+}
+
+#price{
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button{
+  background-color: yellow;
+  border-width: 3px;
+  padding: 10px 20px 10px 20px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+}
+
+.active a{
+  background-color: yellow;
+  font-weight: bold;
+}
+/* Cart Page CSS */
+.remove{
+  font-size: small;
+  text-decoration: underline;
+}
+
+.cartImage{
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#shoppingCart{
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cartRoll{
+  padding: 30px;
+}
+
+#cartLine{
+  width: 800px;
+}
+
+#cartCheckout{
+  margin: auto;
+  width: fit-content;
+}
