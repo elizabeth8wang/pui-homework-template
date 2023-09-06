@@ -6,6 +6,7 @@
   <title>Cart</title>
 </head>
   
+<!-- Logo + line seperator that is consistent among all pages -->
   <body>
     <a href="./index.html">
         <div>
@@ -15,43 +16,48 @@
 
     <hr id="line">
 
-    <navbar>
-        <p ><a href="./index.html">PRODUCTS</a></p>
-        <p class="active"><a href="./cart.html">CART</a></p>
-    </navbar>
+<!-- navigation bar that is consistent among all pages  -->
+    <header>
+        <nav>
+            <p ><a href="./index.html">PRODUCTS</a></p>
+            <p class="active"><a href="./cart.html">CART</a></p>
+        </nav>
+    </header>
 
-    <div id="shoppingCart">
-        <header>Shopping Cart</header>
-        <div class="cartRoll">
-            <img class="cartImage" src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll">
-            <p class="remove">Remove</p>
-            <p> Original Cinnamon Roll
-                <br>
-                Glazing: Keep Original
-                <br>
-                Pack Size: 1
-            </p>
-    
-            <p> $2.49 </p>
-        </div>
 
-        <div>
+    <main>
+        <div id="shoppingCart">
+            <h1>Shopping Cart</h1>
             <div class="cartRoll">
-                <img class="cartImage" src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="Original cinnamon roll">
+                <img class="cartImage" src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll" width="200">
                 <p class="remove">Remove</p>
-        
-                <p> Double Chocolate Cinnamon Roll
+                <p> Original Cinnamon Roll
                     <br>
-                    Glazing: Sugar milk
+                    Glazing: Keep Original
                     <br>
-                    Pack Size: 6
+                    Pack Size: 1
                 </p>
         
-                <p> $27.45 </p>
+                <p> $2.49 </p>
+            </div>
+
+            <div>
+                <div class="cartRoll">
+                    <img class="cartImage" src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="Original cinnamon roll" width="200">
+                    <p class="remove">Remove</p>
+            
+                    <p> Double Chocolate Cinnamon Roll
+                        <br>
+                        Glazing: Sugar milk
+                        <br>
+                        Pack Size: 6
+                    </p>
+            
+                    <p> $27.45 </p>
+                </div>
             </div>
         </div>
-
-    </div>
+    </main>
 
     <hr id="cartLine">
 
@@ -59,7 +65,5 @@
         <p>Total: $29.94</p>
         <button> Checkout </button>
     </div>
-
-
   </body>
 </html>

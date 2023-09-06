@@ -17,23 +17,25 @@
 
     <hr>
     
-    <!-- Navigation bar -->
-    <navbar>
-      <p class="active"><a href="./index.html">PRODUCTS</a></p>
-      <p><a href="./cart.html">CART</a></p>
-  </navbar>
+    <!-- navigation bar that is consistent among all pages  -->
+    <header>
+      <nav>
+        <p class="active"><a href="./index.html">PRODUCTS</a></p>
+        <p><a href="./cart.html">CART</a></p>
+      </nav>
+    </header>
 
-    <header> Original cinnamon roll </header>
+    <h1> Original cinnamon roll </h1>
 
     <main>
-      <img id="detailImage" src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll">
+      <img id="detailImage" src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll" width="600">
       
       <div class="cakeInfo">
         <p id="customizeText">
           Customize our delicious, hand-made cinnamon roll to your liking!
         </p>
 
-        <section id="glazing">
+        <div id="glazing">
           <label> Glazing: </label>
           <br>
           <select class="dropdown">
@@ -41,12 +43,12 @@
             <option>Sugar milk</option>
             <option>Vanilla milk</option>
             <option>Double chocolate</option>
-          <select/>
-        </section>
+          </select>
+          </div>
   
         <br>
 
-        <section id="packSize">
+        <div id="packSize">
           <label> Pack size: </label>
           <br>
           <select class="dropdown">
@@ -54,8 +56,8 @@
             <option>3</option>
             <option>6</option>
             <option>12</option>
-          <select/>
-        </section>
+          </select>
+          </div>
   
         <br>
   

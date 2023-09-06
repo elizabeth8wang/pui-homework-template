@@ -5,7 +5,7 @@ body{
   font-size: large;
 }
 
-navbar {
+header {
   text-align:center;
   margin:auto;
   width:fit-content;
@@ -17,7 +17,7 @@ hr {
 }
 
 
-navbar a:hover {
+nav a:hover {
   background-color: yellow;
   font-weight: bold;
 }
@@ -26,11 +26,13 @@ navbar a:hover {
   width: 400px;
 }
 
-header {
+h1 {
   text-align: center;
   padding: 30px;
   font-size: 40px;
+  font-weight: 100;
 }
+
 
 #products span{
   margin: auto;
@@ -70,11 +72,11 @@ a:visited {
 
 .roll:hover {
   background-color: yellow;
-  .rollName span {
-    font-weight: bold;
-  }
 }
 
+.rollName span:hover {
+  font-weight: bold;
+}
 
 
 
@@ -128,6 +130,9 @@ button{
   background-color: yellow;
   font-weight: bold;
 }
+
+
+
 /* Cart Page CSS */
 .remove{
   font-size: small;
