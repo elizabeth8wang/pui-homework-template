@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pui-materials"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pui-homework-template"
+	}
+}
