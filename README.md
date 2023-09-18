@@ -1,5 +1,6 @@
 # PUI homework
 
-Deployed website: `add the URL to your deployed website`
+Deployed website: https://elizabeth8wang.github.io/pui-homework-template/solution-hw2/index.html
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/elizabeth8wang/pui-homework-template
+
