@@ -36,7 +36,7 @@ let glazing = [
     }
   ];
   
-
+//create the glazing dropdown
 let selectElement = document.querySelector('#glazingSelect');
 for (var i = 0; i < glazing.length; i++){
     let curr = glazing[i];
@@ -46,6 +46,7 @@ for (var i = 0; i < glazing.length; i++){
     selectElement.add(option)
 }
 
+//create the pack size dropdown
 let selectElement2 = document.querySelector('#packSizeSelect');
 for (var i = 0; i < packSizes.length; i++){
     let curr = packSizes[i];
@@ -54,14 +55,17 @@ for (var i = 0; i < packSizes.length; i++){
     option.value = i;
     selectElement2.add(option)
 }
+
 selectElement.addEventListener('change', onChange);
 selectElement2.addEventListener('change', onChange);
 
+//get Price html
 let basePriceElement = document.querySelector('#detailsPrice');
 
 let selectedGlazingIndex = 0; // Initialize with the first glazing
 let selectedPackIndex = 0; // Initialize with the first pack size
 
+//change + add price based off of selections
 function onChange() {
   selectedGlazingIndex = selectElement.value;
   selectedPackIndex = selectElement2.value;
@@ -73,5 +77,4 @@ function onChange() {
   basePriceElement.innerText = finalPrice.toFixed(2);
 }
 
-// Initialize the price based on the default selections
 onChange();
