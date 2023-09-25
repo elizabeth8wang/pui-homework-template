@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="app.js"></script>
+  <title>Product Details</title>
+</head>
+
+  
+  <body>
+
+    <div id="headerNav">
+        <a href="./index.html">
+          <div>
+            <img id="logo" src="../assets/logo/logo-01.svg" alt="Logo">
+          </div>
+        </a>
+  
+        <!-- navigation bar that is consistent among all pages  -->
+        <div id="navLine">
+            <nav>
+              <p class="active"><a href="./index.html">PRODUCTS</a></p>
+              <p><a href="./cart.html">CART</a></p>
+            </nav>
+  
+            <hr id="headerLine">
+  
+            <h1> Original cinnamon roll </h1>
+        </div>
+      </div>
+
+
+    <main>
+      <img id="detailImage" src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll" width="600">
+      
+      <div class="cakeInfo">
+        <p id="customizeText">
+          Customize our delicious, hand-made cinnamon roll to your liking!
+        </p>
+
+        <div>
+            <div id="glazing">
+                <label> Glazing: </label>
+                <br>
+                <select id="glazingSelect">
+                </select>
+                </div>
+      
+              <div id="packSize">
+                <label> Pack size: </label>
+                <br>
+                <select id="packSizeSelect">
+                </select>
+                </div> 
+        </div>
+  
+        <div id="priceButton">
+          <span>$<span id="detailsPrice"> 2.49 </span></span>
+            <button> Add to Cart </button>
+        </div>
+      </div>
+
+    </main>
+
+  </body>
+</html>
