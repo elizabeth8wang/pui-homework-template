@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="./sources.js"></script>
+  <script defer src="./cart.js"></script>
+  <title>Cart</title>
+</head>
+
+    </body>
+   <!-- Logo + line seperator that is consistent among all pages -->
+        <div id="headerNav">
+            <a href="./index.html">
+            <div>
+                <img id="logo" src="../assets/logo/logo-01.svg" alt="Logo">
+            </div>
+            </a>
+
+            <!-- navigation bar that is consistent among all pages  -->
+            <div id="navLine">
+                <nav>
+                    <p><a href="./index.html">PRODUCTS</a></p>
+                    <p class="active"><a href="./cart.html">CART</a></p>
+                </nav>
+
+                <hr id="headerLine">
+
+                <h1> Shopping Cart </h1>
+            </div>
+
+        </div>
+
+        <main id="cartMain">
+            <div id="shoppingCart">
+                <div>
+                    <template id="rollCartTemplate">
+                        <div class="cartRoll">
+                            <div class="imagePrice">
+                                <div>
+                                    <img class="cartImage" src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll" width="200">
+                                </div>
+    
+                                <div class="rollDescription">
+                                    <p class="rollType"> Original Cinnamon Roll</p>
+                                    <p class="rollGlazing"> Glazing: Keep Original </p>
+                                    <p class="rollPacks"> Pack Size: 1 </p>
+                                </div>
+                                
+                                <p class="price"> $2.49 </p>
+                            </div>
+        
+                            <div>
+                                <div>
+                                    <p class="remove">Remove</p>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+    
+                </div>
+
+
+                <div>
+                    <div>
+                        <hr id="cartLine">
+                    </div>
+
+                    <div id="cartCheckout">
+                        <p> Total: <span>$<span id="cartTotalPrice"> 29.94 </span></span> </p> 
+                        <div id="cartButton">
+                            <button> Checkout </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
