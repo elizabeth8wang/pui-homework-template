@@ -1,0 +1,279 @@
+/* Gallery Page CSS */
+#headerNav{
+    display: flex;
+    height: 40%;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+  }
+  
+  nav p{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    margin-right: 10%;
+  }
+  
+  
+  #navLine{
+    flex-direction: row;
+    margin-left: 4%;
+    width: 100%;
+  }
+
+  #navLine h1{
+    vertical-align: bottom;
+    margin-top: 9%;
+    margin-bottom: 0;
+  }
+  
+  body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+  }
+  
+  hr {
+    height: 3px;
+    background-color: black;
+  }
+  
+  
+  nav a:hover {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  
+  #logo {
+    width: 400px;
+    margin: 5% 5% 0 5%;
+  }
+  
+  h1 {
+    text-align: start;
+    font-size: 35px;
+    font-weight: 100;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  
+  #products span{
+    margin: auto;
+    background-color: yellow;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color:black
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  #gallery {
+    margin: 7% 6% 0 6%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #gallery a{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .roll{
+    padding: 2%;
+    justify-content: center; 
+    margin-bottom: 10%;
+  }
+  
+  .image {
+    height: 285px;
+    width: 285px;
+    border-style: solid;
+    border-width: 3px;
+
+  }
+  
+  .rollName{
+    text-decoration: underline;
+    margin: 3% 0 0 0;
+  }
+
+  .rollPrice{
+    margin: 0;
+  }
+  
+  .roll:hover {
+    background-color: yellow;
+  }
+  
+  .rollName span:hover {
+    font-weight: bold;
+  }
+  
+  
+  
+  /* Product Detail Page CSS */
+  main{
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 8% 8% 8%;
+  }
+  
+  #detailImage{
+    width: 600px;
+    height: 600px;
+    margin: 50px 50px 0 0;
+    width: fit-content;
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+  }
+  
+  .cakeInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+  }
+  
+  #customizeText{
+    margin-top: 15%;
+  }
+  
+  select{
+    margin-top: 3%;
+    width: 100%;
+    height: 60px; 
+    font-size: x-large;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  
+  #glazing{
+    margin-bottom: 10%;
+  }
+  
+  #packSize{
+    padding-bottom: 30px;
+  }
+  
+  #priceButton{
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+  }
+
+  #priceButton span{
+    margin-right: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button{
+    background-color: yellow;
+    border-width: 3px;
+    padding: 10px 30px 10px 30px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  #priceButton{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .active a{
+    background-color: yellow;
+    font-weight: bold;
+  }
+  
+  
+  
+  /* Cart Page CSS */
+  #cartMain{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #shoppingCart{
+    margin-left: 34%;
+    padding: 30px;
+    margin-top: 4%;
+  }
+
+  .cartImage{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+  }
+
+  .remove{
+    font-size: medium;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .imagePrice{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cartRoll{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-right: 5%;
+  }
+
+  .rollDescription{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto 0 5%;
+    justify-content: center;
+  }
+
+  .rollDescription p{
+    margin: 3px;
+  }
+
+
+  .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+  }
+
+  #cartCheckout {
+    margin-left: 26%;
+    margin-right: 5%;
+  }
+  
+  #cartCheckout p{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #cartButton{
+    display: flex;
+    justify-content: end;
+    margin-top: 10%;
+  }
+
+  
