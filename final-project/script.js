@@ -10,7 +10,7 @@ var audio = document.createElement("audio")
 function cloudyMusic(){
 
     document.body.appendChild(audio);
-    audio.src = "/final-project/audio/cloudy.mp3"
+    audio.src = "./final-project/audio/cloudy.mp3"
 
     repeatMusic()
 
@@ -25,7 +25,7 @@ function cloudyMusic(){
 function rainyMusic(){
 
     document.body.appendChild(audio);
-    audio.src = "/final-project/audio/rainy.mp3"
+    audio.src = "./final-project/audio/rainy.mp3"
 
     repeatMusic()
 
@@ -41,7 +41,7 @@ function rainyMusic(){
 function snowyMusic(){
 
     document.body.appendChild(audio);
-    audio.src = "/final-project/audio/snowy.mp3"
+    audio.src = "./final-project/audio/snowy.mp3"
 
     repeatMusic()
 
@@ -57,7 +57,7 @@ function snowyMusic(){
 function sunnyMusic(){
 
     document.body.appendChild(audio);
-    audio.src = "/final-project/audio/sunny.mp3"
+    audio.src = "./final-project/audio/sunny.mp3"
 
     repeatMusic()
 
@@ -97,30 +97,30 @@ function displayWeather(result, idx) {
     if (curr_weather.includes('Overcast') || curr_weather.includes('cloudy')) {
         if (idx == 0) {
             bigWeatherTextElem.innerText = 'Pretty Cloudy!';
-            bigWeatherIconElem.src = '/final-project/images/Cloudy.png';
+            bigWeatherIconElem.src = './final-project/images/Cloudy.png';
         }
         cloudyMusic();
-        weatherIcon.src = '/final-project/images/Cloudy.png';
+        weatherIcon.src = './final-project/images/Cloudy.png';
     }
 
     //for rainy
     if (curr_weather.includes('rain')) {
         if (idx == 0) {
             bigWeatherTextElem.innerText = 'Rainy!';
-            bigWeatherIconElem.src = '/final-project/images/Rain.svg';
+            bigWeatherIconElem.src = './final-project/images/Rain.svg';
         }
         rainyMusic();
-        weatherIcon.src = '/final-project/images/Rain.svg';
+        weatherIcon.src = './final-project/images/Rain.svg';
     }
 
     //for snowy
     if (curr_weather.includes('snow')) {
         if (idx == 0) {
             bigWeatherTextElem.innerText = 'Snowy!';
-            bigWeatherIconElem.src = '/final-project/images/Snow.svg';
+            bigWeatherIconElem.src = './final-project/images/Snow.svg';
         }
         snowyMusic();
-        weatherIcon.src = '/final-project/images/Snow.svg';
+        weatherIcon.src = './final-project/images/Snow.svg';
 
     }
 
@@ -335,13 +335,13 @@ var pause = document.getElementById('pause');
 pause.addEventListener("click", pausePlay);
 
 function pausePlay() {
-    if (pause.src.endsWith('/final-project/images/pause.svg')) {
+    if (pause.src.endsWith('./final-project/images/pause.svg')) {
         audio.pause();
         audio.currentTime = 0;
-        pause.src = '/final-project/images/play.svg';
-    } else if (pause.src.endsWith('/final-project/images/play.svg')) {
+        pause.src = './final-project/images/play.svg';
+    } else if (pause.src.endsWith('./final-project/images/play.svg')) {
         audio.play();
-        pause.src = '/final-project/images/pause.svg';
+        pause.src = './final-project/images/pause.svg';
     }
 }
 
