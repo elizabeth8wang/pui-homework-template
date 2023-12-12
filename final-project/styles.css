@@ -51,6 +51,7 @@ body{
     margin-left: 15%;
     color: white;
     font-size: 40px;
+    font-weight: normal;
 }
 
 
@@ -123,6 +124,7 @@ body{
     height: 100%;
     margin: 0;
     font-size: 40px;
+    font-weight: normal;
 }
 
 #songArtist{
