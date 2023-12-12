@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>Home</title>
+</head>
+
+
+<!-- when page loads, call function getWeather () -->
+<body onload="getWeather()">
+
+    <!--header of page, displays location + weather today/right now-->
+    <header id="weatherHeader"> 
+
+        <p id="weatherTitle"> Pittsburgh </p>
+ 
+        <div id="weather">
+            <div id="weather1">
+                <img id = "bigWeatherImg" src="/final-project/images/Cloudy.png" alt="Mostly Cloudy" width="150">
+            </div> 
+            <div id="weather2">
+                <p id = "displayWeather">
+                    Mostly Cloudy
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- block of weather for each day, displays overall weather (with icon) + temperature-->
+    <div id="weathers">
+
+        <div id="weatherList">
+
+            <!-- current day + weather -->
+            <div id="thisTimeWeather">
+                <div>
+                     <p id="day1">...</p>
+                </div>
+                <div>
+                    <img id = "weatherIcon1" src="/final-project/images/Cloudy.png" alt="Mostly Cloudy" width="50">
+                </div>
+                <div>
+                    <p id = "temp1">...</p>
+                </div>
+            </div>
+            
+            <!-- day 2 + weather -->
+            <div class="timeWeather">
+                <div>
+                    <p id="day2">...</p>
+                </div>
+                <div>
+                    <img id = "weatherIcon2" src="/final-project/images/Cloudy.png" alt="Mostly Cloudy" width="50">
+                </div>
+                <div>
+                    <p id = "temp2">...</p>
+                </div>
+            </div>
+            
+             <!-- day 3 + weather -->
+            <div class="timeWeather">
+                <div>
+                    <p id="day3">...</p>
+                </div>
+                <div>
+                    <img id = "weatherIcon3" src="/final-project/images/Cloudy.png" alt="Mostly Cloudy" width="50">
+                </div>
+                <div>
+                    <p id = "temp3" >...</p>
+                </div>
+            </div>
+    
+            <!-- day 4 + weather -->
+            <div class="timeWeather">
+                <div>
+                    <p id="day4">...</p>
+                </div>
+                <div>
+                    <img id = "weatherIcon4"src= "/final-project/images/Cloudy.png" alt="Mostly Cloudy" width="50">
+                </div>
+                <div>
+                    <p id = "temp4"> ... </p>
+                </div>
+            </div>
+
+            <!-- day 5 + weather -->
+            <div class="timeWeather">
+                <div>
+                    <p id="day5">...</p>
+                </div>
+                <div>
+                    <img id = "weatherIcon5" src="/final-project/images/Cloudy.png" alt="Mostly Cloudy" width="50">
+                </div>
+                <div>
+                    <p id = "temp5"> ... </p>
+                </div>
+            </div>
+
+            <!-- day 6 + weather -->
+            <div class="timeWeather">
+                <div>
+                    <p id="day6">...</p>
+                </div>
+                <div>
+                    <img id = "weatherIcon6" src="/final-project/images/Cloudy.png" alt="Mostly Cloudy" width="50">
+                </div>
+                <div>
+                    <p id = "temp6"> ... </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- timer + countdown -->
+    <div id="timerContainer">
+        <div id="timer">
+            <div id="minuteTime"> 26 </div>
+            <div id="colon"> : </div>
+            <div id="secondTime"> 00 </div> 
+        </div>
+
+        <div id="button">
+            <button id="setTime"> Set Time </button>
+        </div>
+    </div>
+
+
+    <!-- Modal for choosing time to countdown-->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+        <div>
+            <span class="min"> 10  </span> &nbsp <span>minutes</span>
+        </div>
+
+        <div>
+            <span class="min"> 15 </span> &nbsp <span> minutes</span>
+        </div>
+
+        <div >
+            <span class="min"> 20 </span> &nbsp <span> minutes</span>
+        </div>
+
+        <div >
+            <span class="min"> 25 </span> &nbsp <span> minutes</span>
+        </div>
+
+        <div >
+            <span class="min"> 30 </span> &nbsp <span> minutes</span>
+        </div>
+
+        <div >
+            <span class="min"> 90 </span> &nbsp <span> minutes</span>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- Song name + artist based on song + weather -->
+    <div id="songContainer">
+        <div id="songInfo">
+            <div id="songNameContainer">
+                <div>
+                    <p id="songName"> You Are the Reason </p>
+                </div>
+            </div>
+            <div id="songArtist">
+                <p > Calum Scott </p>
+            </div>
+        </div>
+
+        <div id="control">
+            <img id="pause" src="/final-project/images/pause.svg" alt="pause" width="300">
+        </div>
+    </div>
+
+
+</body>
+
+    
+</html>

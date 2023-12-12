@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "pui-homework-template"
+		"liveServer.settings.multiRootWorkspaceName": "pui-homework-template",
+		"liveServer.settings.port": 5501
 	}
 }
