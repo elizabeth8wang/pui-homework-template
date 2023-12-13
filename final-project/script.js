@@ -101,6 +101,7 @@ function displayWeather(result, idx) {
         }
         cloudyMusic();
         weatherIcon.src = './images/Cloudy.png';
+        weatherIcon.alt = "Cloudy";
     }
 
     //for rainy
@@ -111,6 +112,7 @@ function displayWeather(result, idx) {
         }
         rainyMusic();
         weatherIcon.src = './images/Rain.svg';
+        weatherIcon.alt = "Rainy";
     }
 
     //for snowy
@@ -121,6 +123,7 @@ function displayWeather(result, idx) {
         }
         snowyMusic();
         weatherIcon.src = './images/Snow.svg';
+        weatherIcon.alt = "Snowy";
 
     }
 
@@ -132,6 +135,7 @@ function displayWeather(result, idx) {
         }
         sunnyMusic();
         weatherIcon.src = './images/Sun.svg';
+        weatherIcon.alt = "Sunny";
 
     }
 }
